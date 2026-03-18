@@ -1,28 +1,28 @@
 class Zq < Formula
   desc "A drop-in replacement for jq, 25x faster"
   homepage "https://github.com/Enriquefft/zq"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-macos-amd64.tar.gz"
-      sha256 "46143ea663054e5df942d4844ef4691ef5e1c2ff473e778af275f64d521bb518"
+      sha256 "d5533b69802933081161d8a574391b71fae34bfd2b3cf7e18177cd0aa7679172"
     end
     on_arm do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-macos-arm64.tar.gz"
-      sha256 "2e384b84da9f4376975bc63cebf1435888ddbb7392312a6e6770a9594d3536aa"
+      sha256 "7f1086e6da2bf500daf86931931a54008695de394e9324509507e845ed02971f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-linux-amd64.tar.gz"
-      sha256 "a48afe7884a78e89ce6554a64b50068fcf22dba91038f855341b48b3a02a87a3"
+      sha256 "3a5fc4ba359a284e0d1fb67fc628c44726dcdd872772c0c74ace86c003547c00"
     end
     on_arm do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-linux-arm64.tar.gz"
-      sha256 "8e81242ca9358f6dd6e46a06e31ce0c1150d6a3d1717fabc411c74a8e2f401bb"
+      sha256 "f418023e891c50ac4b5f0941e448be27843b9e6ed70b75a660bce6bf95139fae"
     end
   end
 
