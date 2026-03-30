@@ -7,22 +7,22 @@ class Zq < Formula
   on_macos do
     on_intel do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-macos-amd64.tar.gz"
-      sha256 "185e83e7fc3f1cf36edb3aa55a87deba4fa51a68f77e9ec1db56aff00a9f1650"
+      sha256 "8513a23905553673dff4666da829540673bc1d2c8353d8848a44df5109e5e6f7"
     end
     on_arm do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-macos-arm64.tar.gz"
-      sha256 "5aff9906b701d8255e9ce9f0a96567853a6557dc028e2dc8e220fe7b4cee95d5"
+      sha256 "f72793c3a1c0474f95909088bf5e69b8a492fd58dd90b94b5b94c26e11418312"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-linux-amd64.tar.gz"
-      sha256 "681958a76f3ea5456295be76f96ec66c8f2f63a21e27c0144960e087ea873ed2"
+      sha256 "bbea720970c0efd00ab02fce11ae5f091337485c00623c2d278aa2c5e469133b"
     end
     on_arm do
       url "https://github.com/Enriquefft/zq/releases/download/v#{version}/zq-#{version}-linux-arm64.tar.gz"
-      sha256 "b76916b3f1bda9c0f090ebd5b61036906806c79563a6b1be876d97e07ff7ffbb"
+      sha256 "f846e06c4255e1c519e4b48baabab9a3e2902ab77a8c2de837e5ee73482b365e"
     end
   end
 
